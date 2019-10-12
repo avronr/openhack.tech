@@ -2464,3 +2464,56 @@ blockquote {
 #landing-footer .copyleft li:first-child {
   border-left: 0;
 }
+
+
+/* --------- 6.3 Speakers ---------- */
+
+.speakers {
+  padding: 15px;
+}
+
+blockquote {
+  position: relative;
+}
+
+.speakers img {
+  max-height: 120px;
+  border-radius: 250em;
+}
+
+.speakers footer {
+  padding-top: 12px;
+}
+
+/* Style Classic - Avatar above Speakers */
+
+.speakers.classic img {
+  display: inline-block;
+  margin-bottom: 25px;
+}
+
+.speakers.classic q {
+  display: block;
+}
+
+.speakers.classic footer:before {
+  display: block;
+  content: "";
+  width: 30px;
+  height: 4px;
+  margin: 10px auto 15px auto;
+}
+.speakers.classic h4 {  
+  font-size: 24px;
+  font-weight: bold;
+}
+
+/* Style Big */
+
+.speakers.bigtest {
+  padding-top: 0;
+}
+
+.speakers.bigtest q {
+  font-size: 22px;
+}
