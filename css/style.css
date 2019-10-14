@@ -2517,3 +2517,56 @@ blockquote {
 .speakers.bigtest q {
   font-size: 22px;
 }
+
+
+
+/* --------- 6.3 Sponsors ---------- */
+
+.sponsors {
+  padding: 15px;
+}
+
+blockquote {
+  position: relative;
+}
+
+.sponsors img {
+  max-height: 120px;
+}
+
+.sponsors footer {
+  padding-top: 12px;
+}
+
+/* Style Classic - Avatar above Sponsors */
+
+.sponsors.classic img {
+  display: inline-block;
+  margin-bottom: 25px;
+}
+
+.sponsors.classic q {
+  display: block;
+}
+
+.sponsors.classic footer:before {
+  display: block;
+  content: "";
+  width: 30px;
+  height: 4px;
+  margin: 10px auto 15px auto;
+}
+.sponsors.classic h4 {  
+  font-size: 24px;
+  font-weight: bold;
+}
+
+/* Style Big */
+
+.sponsors.bigtest {
+  padding-top: 0;
+}
+
+.sponsors.bigtest q {
+  font-size: 22px;
+}
